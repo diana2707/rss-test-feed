@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Test .NET News</title>
+    <link>https://example.com</link>
+    <description>Test feed for Power Automate</description>
+
+    <item>
+      <title>First test article</title>
+      <link>https://example.com/article-1</link>
+      <guid>test-1</guid>
+      <pubDate>Wed, 10 Sep 2026 10:00:00 GMT</pubDate>
+      <description>First test summary</description>
+    </item>
+  </channel>
+</rss>
