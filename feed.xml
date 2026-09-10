@@ -12,12 +12,5 @@
       <pubDate>Wed, 10 Sep 2026 10:00:00 GMT</pubDate>
       <description>First test summary</description>
     </item>
-    <item>
-  <title>Second .NET Test Article</title>
-  <link>https://example.com/dotnet-test-2</link>
-  <guid>dotnet-test-2</guid>
-  <pubDate>Thu, 11 Sep 2026 12:00:00 GMT</pubDate>
-  <description>This is the second test article for the Teams card workflow.</description>
-</item>
   </channel>
 </rss>
