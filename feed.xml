@@ -19,12 +19,6 @@
       <description>First test summary</description>
     </item>
 
-       <item>
-      <title>Second .NET Test Article</title>
-      <link>https://example.com/dotnet-test-2</link>
-      <guid>https://diana2707.github.io/rss-test-feed/items/test-2</guid>
-      <pubDate>Fri, 11 Sep 2026 12:00:00 GMT</pubDate>
-      <description>This is the second test article for the Teams card workflow.</description>
-    </item>
+      
   </channel>
 </rss>
