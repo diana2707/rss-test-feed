@@ -1,15 +1,27 @@
+```xml
 <?xml version="1.0" encoding="UTF-8"?>
-<feed xmlns:yt="http://www.youtube.com/xml/schemas/2015"
-      xmlns:media="http://search.yahoo.com/mrss/"
-      xmlns="http://www.w3.org/2005/Atom">
+<feed xmlns="http://www.w3.org/2005/Atom"
+      xmlns:yt="http://www.youtube.com/xml/schemas/2015"
+      xmlns:media="http://search.yahoo.com/mrss/">
 
-  <link rel="self" href="https://example.com/test-youtube-feed.xml"/>
-  <id>yt:channel:TESTCHANNEL123</id>
-  <yt:channelId>TESTCHANNEL123</yt:channelId>
+  <id>https://diana2707.github.io/rss-test-feed/youtube-feed.xml</id>
+
   <title>Test YouTube Channel</title>
 
+  <updated>2026-09-14T13:00:00Z</updated>
+
+  <link rel="self"
+        href="https://diana2707.github.io/rss-test-feed/youtube-feed.xml"/>
+
+  <author>
+    <name>Test YouTube Channel</name>
+  </author>
+
+  <yt:channelId>TESTCHANNEL123</yt:channelId>
+
   <entry>
-    <id>yt:video:dQw4w9WgXcQ</id>
+    <id>https://www.youtube.com/watch?v=dQw4w9WgXcQ</id>
+
     <yt:videoId>dQw4w9WgXcQ</yt:videoId>
     <yt:channelId>TESTCHANNEL123</yt:channelId>
 
@@ -18,46 +30,16 @@
     <link rel="alternate"
           href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"/>
 
-    <published>2026-09-14T10:00:00+00:00</published>
-    <updated>2026-09-14T10:00:00+00:00</updated>
+    <published>2026-09-14T10:00:00Z</published>
+    <updated>2026-09-14T10:00:00Z</updated>
 
-    <media:group>
-      <media:title>Test YouTube Video</media:title>
-
-      <media:thumbnail
-        url="https://i.ytimg.com/vi/dQw4w9WgXcQ/hqdefault.jpg"
-        width="480"
-        height="360"/>
-
-      <media:description>
-        This is a mocked YouTube RSS entry.
-      </media:description>
-    </media:group>
-  </entry>
-      <entry>
-  <id>yt:video:BR-LFsDDfjk</id>
-  <yt:videoId>BR-LFsDDfjk</yt:videoId>
-  <yt:channelId>TESTCHANNEL123</yt:channelId>
-
-  <title>Test Computer Science Video</title>
-
-  <link rel="alternate"
-        href="https://www.youtube.com/watch?v=BR-LFsDDfjk"/>
-
-  <published>2026-09-14T13:00:00+00:00</published>
-  <updated>2026-09-14T13:00:00+00:00</updated>
-
-  <media:group>
-    <media:title>Test Computer Science Video</media:title>
+    <summary>This is a mocked YouTube RSS entry.</summary>
 
     <media:thumbnail
-      url="https://i.ytimg.com/vi/BR-LFsDDfjk/hqdefault.jpg"
+      url="https://i.ytimg.com/vi/dQw4w9WgXcQ/hqdefault.jpg"
       width="480"
       height="360"/>
+  </entry>
 
-    <media:description>
-      This is a mocked YouTube RSS entry for testing the Teams Adaptive Card.
-    </media:description>
-  </media:group>
-</entry>
 </feed>
+```
