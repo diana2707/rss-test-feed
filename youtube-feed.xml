@@ -34,4 +34,30 @@
       </media:description>
     </media:group>
   </entry>
+      <entry>
+  <id>yt:video:BR-LFsDDfjk</id>
+  <yt:videoId>BR-LFsDDfjk</yt:videoId>
+  <yt:channelId>TESTCHANNEL123</yt:channelId>
+
+  <title>Test Computer Science Video</title>
+
+  <link rel="alternate"
+        href="https://www.youtube.com/watch?v=BR-LFsDDfjk"/>
+
+  <published>2026-09-14T13:00:00+00:00</published>
+  <updated>2026-09-14T13:00:00+00:00</updated>
+
+  <media:group>
+    <media:title>Test Computer Science Video</media:title>
+
+    <media:thumbnail
+      url="https://i.ytimg.com/vi/BR-LFsDDfjk/hqdefault.jpg"
+      width="480"
+      height="360"/>
+
+    <media:description>
+      This is a mocked YouTube RSS entry for testing the Teams Adaptive Card.
+    </media:description>
+  </media:group>
+</entry>
 </feed>
