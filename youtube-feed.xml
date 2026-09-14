@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns:yt="http://www.youtube.com/xml/schemas/2015"
+      xmlns:media="http://search.yahoo.com/mrss/"
+      xmlns="http://www.w3.org/2005/Atom">
+
+  <link rel="self" href="https://example.com/test-youtube-feed.xml"/>
+  <id>yt:channel:TESTCHANNEL123</id>
+  <yt:channelId>TESTCHANNEL123</yt:channelId>
+  <title>Test YouTube Channel</title>
+
+  <entry>
+    <id>yt:video:dQw4w9WgXcQ</id>
+    <yt:videoId>dQw4w9WgXcQ</yt:videoId>
+    <yt:channelId>TESTCHANNEL123</yt:channelId>
+
+    <title>Test YouTube Video</title>
+
+    <link rel="alternate"
+          href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"/>
+
+    <published>2026-09-14T10:00:00+00:00</published>
+    <updated>2026-09-14T10:00:00+00:00</updated>
+
+    <media:group>
+      <media:title>Test YouTube Video</media:title>
+
+      <media:thumbnail
+        url="https://i.ytimg.com/vi/dQw4w9WgXcQ/hqdefault.jpg"
+        width="480"
+        height="360"/>
+
+      <media:description>
+        This is a mocked YouTube RSS entry.
+      </media:description>
+    </media:group>
+  </entry>
+</feed>
